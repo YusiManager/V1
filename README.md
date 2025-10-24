@@ -110,10 +110,6 @@ Host *
 ## License
 [MIT License](LICENSE)
 
----
-
-## Acknowledgements
-Built on Qt. Thanks to all contributors.
 
 
 
