@@ -21,7 +21,7 @@ Minimums: **CMake ≥ 3.16**, **C++20**, **Qt 6 (Widgets, Network, Svg)**
 ```bash
 # Clone the repository
 git clone https://github.com/YusiManager/V1.git
-cd V1.X
+cd V1
 
 # Build
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
@@ -49,7 +49,7 @@ sudo apt install -y \
   krusader
 
 git clone https://github.com/YusiManager/V1.git
-cd V1.X
+cd V1
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j
 ./build/YusiManager
@@ -71,7 +71,7 @@ cmake --build build -j
 sudo dnf install -y cmake gcc-c++ qt6-qtbase-devel qt6-qttools-devel qt6-qtsvg-devel krusader
 
 git clone https://github.com/YusiManager/V1.git
-cd V1.X
+cd V1
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j
 ./build/YusiManager
@@ -82,7 +82,7 @@ cmake --build build -j
 sudo zypper install -y cmake gcc-c++ libqt6-qtbase-devel libqt6-qttools-devel libqt6-qtsvg-devel krusader
 
 git clone https://github.com/YusiManager/V1.git
-cd V1.X
+cd V1
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j
 ./build/YusiManager
@@ -97,6 +97,7 @@ cmake --build build -j
 
 ## Acknowledgements
 Built on Qt. Thanks to all contributors.
+
 
 
 
