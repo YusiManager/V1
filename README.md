@@ -20,7 +20,7 @@ Minimums: **CMake ≥ 3.16**, **C++20**, **Qt 6 (Widgets, Network, Svg)**
 ## Quick start
 ```bash
 # Clone the repository
-git clone https://github.com/YusiManager/V1.X.git
+git clone https://github.com/YusiManager/V1.git
 cd V1.X
 
 # Build
@@ -48,7 +48,7 @@ sudo apt install -y \
   libqt6svg6-dev \
   krusader
 
-git clone https://github.com/YusiManager/V1.X.git
+git clone https://github.com/YusiManager/V1.git
 cd V1.X
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j
@@ -59,7 +59,7 @@ cmake --build build -j
 ```bash
 sudo pacman -S --needed cmake base-devel qt6-base qt6-tools qt6-svg krusader
 
-git clone https://github.com/YusiManager/V1.X.git
+git clone https://github.com/YusiManager/V1.git
 cd V1.X
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j
@@ -70,7 +70,7 @@ cmake --build build -j
 ```bash
 sudo dnf install -y cmake gcc-c++ qt6-qtbase-devel qt6-qttools-devel qt6-qtsvg-devel krusader
 
-git clone https://github.com/YusiManager/V1.X.git
+git clone https://github.com/YusiManager/V1.git
 cd V1.X
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j
@@ -81,7 +81,7 @@ cmake --build build -j
 ```bash
 sudo zypper install -y cmake gcc-c++ libqt6-qtbase-devel libqt6-qttools-devel libqt6-qtsvg-devel krusader
 
-git clone https://github.com/YusiManager/V1.X.git
+git clone https://github.com/YusiManager/V1.git
 cd V1.X
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j
@@ -97,6 +97,7 @@ cmake --build build -j
 
 ## Acknowledgements
 Built on Qt. Thanks to all contributors.
+
 
 
 
