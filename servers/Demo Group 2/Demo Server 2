@@ -1,0 +1,6 @@
+host=123.123.123.123
+user=root
+port=22
+keyfile=/home/user/.ssh/yubi-key/desk
+homedir=/media/user/home
+remotedir=/root
