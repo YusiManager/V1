@@ -87,6 +87,23 @@ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j
 ./build/YusiManager
 ```
+---
+
+### Recommended SSH Configuration
+
+For the best experience with YusiManager, add the following lines to your ~/.ssh/config
+```bash
+Host *
+  IdentitiesOnly yes
+  PubkeyAuthentication yes
+  ServerAliveInterval 30
+  ServerAliveCountMax 10
+
+  # ▼ Reuse existing connections (fewer YubiKey touches)
+  ControlMaster auto
+  ControlPath ~/.ssh/control-%r@%h:%p
+  ControlPersist 5m
+```
 
 ---
 
@@ -97,6 +114,7 @@ cmake --build build -j
 
 ## Acknowledgements
 Built on Qt. Thanks to all contributors.
+
 
 
 
