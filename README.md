@@ -60,7 +60,7 @@ cmake --build build -j
 sudo pacman -S --needed cmake base-devel qt6-base qt6-tools qt6-svg krusader
 
 git clone https://github.com/YusiManager/V1.git
-cd V1.X
+cd V1
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j
 ./build/YusiManager
@@ -97,6 +97,7 @@ cmake --build build -j
 
 ## Acknowledgements
 Built on Qt. Thanks to all contributors.
+
 
 
 
