@@ -7,7 +7,7 @@
 
 ---
 
-<img width="1723" height="1003" alt="Screenshot" src="https://github.com/user-attachments/assets/f8b6aedc-2d56-46c7-9750-d4c6fc36f056" />
+<img width="1723" height="1003" alt="Screenshot" src="https://github.com/user-attachments/assets/a8a11d58-cf81-4d0a-a51c-4addb1f8bf36" />
 
 ---
 
@@ -97,6 +97,7 @@ cmake --build build -j
 
 ## Acknowledgements
 Built on Qt. Thanks to all contributors.
+
 
 
 
